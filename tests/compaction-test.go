@@ -20,7 +20,7 @@ func main() {
 
     ctx := context.Background()
 
-    // Generate 10,000 unique keys with 10,000 revisions each
+    // Generate 1,000 unique keys with 1,000 revisions each
     for i := 0; i < 1000; i++ {
         key := fmt.Sprintf("key%d", i)
         for j := 0; j < 1000; j++ {
